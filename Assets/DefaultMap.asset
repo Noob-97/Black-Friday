@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e11faea5da6f8d740b1c25db1f20d633, type: 3}
+  m_Name: DefaultMap
+  m_EditorClassIdentifier: 
+  ReachingRadius: 1
+  Nodes:
+  - Position: {x: 72.8, y: 0.08, z: 0}
+    MaxSpeed: 5
+    NextNodes: 01000000
+  - Position: {x: 68, y: 0.08, z: 0}
+    MaxSpeed: 5
+    NextNodes: 00000000
+  - Position: {x: 72.9, y: -5.14, z: 0}
+    MaxSpeed: 5
+    NextNodes: 00000000
+  - Position: {x: 68, y: -5.14, z: 0}
+    MaxSpeed: 5
+    NextNodes: 0200000001000000
